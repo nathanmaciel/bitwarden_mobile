@@ -126,7 +126,7 @@
       <PackageReference Include="Xamarin.AndroidX.Credentials" Version="1.0.0" />
 	</ItemGroup>
 	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android' AND !$(DefineConstants.Contains(FDROID))">
-	  <PackageReference Include="Xamarin.GooglePlayServices.SafetyNet" Version="118.0.1.5" />
+	  <PackageReference Include="Xamarin.GooglePlayServices.SafetyNet" Version="118.1.0" />
 	  <PackageReference Include="Xamarin.Firebase.Messaging" Version="123.1.2.2" />
 	</ItemGroup>
 	<ItemGroup Condition="!$(DefineConstants.Contains(FDROID))">
